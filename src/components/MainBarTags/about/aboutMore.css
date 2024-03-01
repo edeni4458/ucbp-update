@@ -1,0 +1,73 @@
+/* AboutMore */
+.mid-about-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-bottom: 1em;
+    height: 30em;
+    width: 80%;
+    background: linear-gradient(#30353eaf, black);
+    padding: 2em;
+    border: 2px solid gray;
+}
+
+.mid-about-div:hover {
+    background-color: #30353e;
+}
+
+.subText > p {
+    padding: 2rem;
+    font-weight: bold;
+}
+
+.support-text-container>h6 {
+    color: whitesmoke;
+    font-weight: bolder;
+}
+
+#img-size {
+    border-radius: 10px;
+    margin-bottom: 5px;
+    width: 80%;
+    height: 80%;
+
+}
+
+
+/* Ipad Pro */
+@media screen and (max-width: 1024px) {
+
+}
+
+/* Ipad Mini */
+@media screen and (max-width: 768px) {
+
+}
+
+/* Phone */
+@media screen and (max-width: 550px) {
+    .mid-about-div {
+        flex-direction: column;
+        height: 50rem;
+    }
+
+    .subText > p {
+        padding: .5rem;
+        margin-top: 0;
+    }
+
+    #img-size {
+        width: 17rem;
+        height: 15rem;
+        margin-bottom: 1rem;
+    }
+
+    .support-text-container > h6 {
+        margin-bottom: 1rem;
+    }
+}
+
+/* An Even Smaller Phone */
+@media screen and (max-width: 360px) {}

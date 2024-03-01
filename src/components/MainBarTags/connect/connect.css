@@ -1,0 +1,120 @@
+/* Connect */
+.main-connect-con {
+    /* margin: 0 auto; */
+    width: 100%;
+    margin-top: 3em;
+}
+
+.main-connect {
+    margin: 0 auto;
+}
+
+.main-connect>h2 {
+    font-weight: bolder;
+    margin-bottom: 1em;
+}
+
+.connect-container {
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #bc2d1a6f;
+    width: 80%;
+    height: 10em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    border-radius: 10px;
+    border: 2px solid gray;
+}
+
+.connect-container>h3 {
+    margin-top: 1em;
+}
+
+.social-media {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.codec-container {
+    margin: 0 auto;
+    margin-top: 2em;
+    width: 80%;
+    height: 10em;
+    background-color: #0a66c278;
+    margin-bottom: 1em;
+    border-radius: 10px;
+    border: 2px solid gray;
+}
+
+.codec-container>h3 {
+    margin-top: 1em;
+}
+
+.socialMedia-links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.socialMedia-image {
+    height: 40px;
+}
+
+.socialMedia-image-U {
+    height: 35px;
+    margin-top: 2.5px;
+}
+
+.socialMedia-image-spot {
+    width: 40px;
+}
+
+#apple-img {
+    border-radius: 50%;
+}
+
+#underline {
+    text-decoration: none;
+}
+
+.openModalBtn {
+    background-color: rgba(255, 255, 255, 0.275);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 8px;
+    border: 2px solid black;
+    height: 3em;
+    width: 5em;
+    color: black;
+    font-size: larger;
+    font-weight: bolder;
+    margin-bottom: 3em;
+}
+
+.openModalBtn:hover {
+    background-color: rgba(0, 0, 0, 0.574);
+    color: white;
+    border: 2px solid white;
+    /* position:relative; */
+}
+
+/* Ipad Pro */
+@media screen and (max-width: 1024px) {}
+
+/* Ipad Mini */
+@media screen and (max-width: 768px) {}
+
+/* Phone */
+@media screen and (max-width: 550px) {
+    .main-connect {
+        width: 85%;
+    }
+
+    .main-connect>h2 {
+        font-size: 20px;
+    }
+}
+
+/* An Even Smaller Phone */
+@media screen and (max-width: 360px) {}

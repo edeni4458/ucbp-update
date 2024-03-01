@@ -1,0 +1,43 @@
+/* ThanksModal */
+
+.main-containerTks {
+    margin-top: 3em;
+    width: 100%;
+}
+
+.thks-container {
+    margin: 0 auto;
+    margin-bottom: 8em;
+    width: 85%;
+    height: 100%
+}
+
+.thks-message {
+    display: flex;
+    justify-content: space-between;
+    background-color: #282c3474;
+    color: whitesmoke;
+    width: 81em;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 2px solid gray;
+    height: 25em;
+}
+
+#signUp-text {
+    margin-left: 3em;
+    margin-top: 2em;
+}
+
+#thks-image {
+    height: 375px;
+    margin-top: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+#thks-margin {
+
+    text-align: left;
+    font-weight: bolder;
+}

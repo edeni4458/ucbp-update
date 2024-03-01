@@ -1,0 +1,74 @@
+
+/* About page */
+.container-About-main {
+    margin-top: 3em;
+}
+
+.middle-container {
+    width: 85%;
+    margin: 0 auto;
+    margin-bottom: 5em;
+    display: flex;
+    flex-direction: column;
+}
+
+.h4-margin {
+    font-weight: bolder;
+    text-align: left;
+}
+
+.container-about {
+    border-radius: 10px;
+    height: 25em;
+    width: 75%
+}
+
+
+/* Ipad Pro */
+@media screen and (max-width: 1024px) {
+
+}
+/* Ipad Mini */
+@media screen and (max-width: 768px) {
+
+}
+
+/* Phone */
+@media screen and (max-width: 550px) {
+
+
+    .middle-container {
+        width: 85%;
+        margin: 0 auto;
+        margin-bottom: 5em;
+    }
+
+    .h4-margin {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .container-about {
+        width: 20rem;
+        height: 15rem;
+    }
+}
+/* An Even Smaller Phone */
+@media screen and (max-width: 360px) {
+    
+    .middle-container {
+        width: 85%;
+        margin: 0 auto;
+        margin-bottom: 5em;
+    }
+
+    .h4-margin {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .container-about {
+        width: 70%;
+        height: 15rem;
+    }
+}

@@ -1,0 +1,351 @@
+  /* Main page */
+
+.main-container {
+    margin-top: 3em;
+    height: 100%;
+    width: 100%;
+}
+
+
+.first-top-width {
+    max-height: 22em;
+    width: 90%;
+    margin: 0 auto;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4));
+    border-radius: 10px;
+    margin-bottom: 5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+.sub-text {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+
+.fix-image {
+    object-fit: cover;
+    width: 18em;
+    border-radius: 5px;
+}
+.text-container > h2,h3,h5 {
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 1.1em;
+    font-weight: 800;
+    margin-left: 5em;
+    margin-right: 10rem;
+    margin-top: 3rem;
+    color: whitesmoke;
+    text-align: center;
+}
+
+
+.top-sub-container {
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    margin: 0 auto;
+    width: 80%;
+}
+
+
+.social-media-header>h4 {
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.social-media-links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.social-media-cards {
+    background-color: rgba(245, 245, 245, 0.285);
+    margin: 1em;
+    border-radius: 10px;
+    position: relative;
+    transition: 0.7s;
+    width: 5em;
+    height: 5em;
+    border: 1px solid #ff8833;
+}
+
+.social-media-cards:hover {
+    transform: scale(1.1);
+    background-color: #ff88335d;
+}
+
+.home-image-U {
+    width: 40px;
+    margin-top: 25px;
+}
+
+.home-image {
+    width: 40px;
+    margin-top: 20px;
+}
+
+.main-social-image {
+    border-radius: 50%;
+}
+
+.first-mid-width {
+    height: 32em;
+    max-height: 50em;
+    width: clamp(100%, 100%, 100%);
+    background: linear-gradient(to bottom right, #ff8833, #fffa66);
+    display: flex;
+    margin-top: 10.5em;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.video-flex {
+    display: flex;
+    justify-content: center;
+    margin-top: 4em;
+    gap: 12em;
+}
+
+.fav-episodes {
+    height: 200px;
+    width: 200px;
+    border-radius: 10%;
+    position: relative;
+    transition: 1.0s;
+    z-index: 3;
+}
+
+.fav-episodes:hover {
+    transform: scale(1.1);
+
+    /* color: #fff;
+    transform: rotateY(180deg) */
+
+}
+.episode-title {
+    text-align: center;
+    margin-top: 1.5em;
+    color: white;
+    font-weight: bolder;
+    width: 100%;
+}
+
+.fix-imageBG1 {
+    object-fit: cover;
+}
+
+/* .fix-image {
+    transition: transform 0.3s ease-in-out;
+
+}
+.fix-image:hover {
+    transform: scale(1.1);
+
+} */
+
+#link-to-connect {
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+#link-to-connect:hover {
+    color: darkred;
+    cursor: pointer;
+}
+
+.mid-header {
+    text-align: left;
+    margin-top: 2em;
+    font-weight: bolder;
+    border-bottom: 3px solid lightgray;
+    width: 16.5em;
+}
+
+@media screen and (max-width: 1050px) {
+    .first-top-width{
+        width: 85%;
+        margin-bottom: 1rem;
+    }
+    .first-mid-width {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+    .sub-text {
+        display: flex;
+        justify-content: space-around;
+        margin: 0 0 3rem;
+    }
+    .text-container > h2,h3,h5 { 
+        font-size: 20px;
+        line-height: 22px;
+        text-align: center;
+        margin: 2.5rem;
+    }
+    .fix-image {
+        width: 12rem;
+    }
+    .top-sub-container {
+        flex-direction: column;
+        width: 75%;
+    }
+    .social-media-cards {
+        margin-top: 2rem;
+    }
+    .social-media-header> h4 {
+        /* font-size: 15px; */
+        margin-top: 2rem;
+        text-align: center;
+    }
+    /* Yellow Slot */
+    .first-mid-width {
+        height: 380px;
+        margin-top: 4rem;
+    }
+    .mid-header {
+        font-size: 25px;
+        border-bottom: none;
+        /* width: 70%; */
+        margin: 0 auto;
+        margin-top: 3rem;
+    }
+    .video-flex {
+        flex-direction:row;
+        gap: 8rem;
+    }
+    .fav-episodes {
+        width: 135px;
+        height: 135px;
+    }
+    .episode-title {
+        font-size: 22px;
+        
+    }
+
+}
+
+@media screen and (max-width: 780px) {
+    .first-mid-width {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .sub-text {
+        display: flex;
+        justify-content: space-around;
+        margin: 0 0 3rem;
+    }
+    .fix-image {
+        width: 12rem;
+    }
+    .text-container > h2,h3,h5 { 
+        font-size: 18px;
+        line-height: 55px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .social-media-header>h4 {
+        font-size: 20px;
+    }
+    .video-flex {
+        flex-direction:row;
+        gap: 5rem;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .main-container {
+        margin-top: 1rem;
+
+    }
+    .first-mid-width {
+        margin-bottom: 0;
+        margin-top: 4rem;
+
+    }
+    .sub-text {
+        display: flex;
+        flex-direction: column;
+        gap: 5rem;
+        margin: 0 0 3rem;
+    }
+
+    .text-container > h2,h3,h5 { 
+        font-size: 12px;
+        line-height: 25px;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 2rem;
+        height: 0;
+        width: 100%;
+    }
+    .fix-image {
+        width: 9rem;
+    }
+    .top-sub-container {
+        /* flex-direction: column; */
+        width: 78%;
+    }
+
+    .social-media-cards {
+        margin: 0 auto;
+        margin-top: 2.5rem;
+        height: 3em;
+        width: 3rem;
+        border-radius: 7px;
+    }
+    /* Images for Social-Cards */
+    .home-image-U {
+        width: 30px;
+        margin-top: 12px;
+    }
+    
+    .home-image {
+        width: 30px;
+        margin-top: 8px;
+    }
+    
+    .main-social-image {
+        border-radius: 50%;
+    }
+    .social-media-header {
+        width: 100%;
+
+    }
+    .social-media-header>h4 {
+        font-size: 15px;
+        margin-top: 2rem;
+    }
+    /* Yellow Slot */
+    .first-mid-width {
+        height: 330px;
+    }
+    .first-mid-width > h3 {
+        text-align: center;
+        border-bottom: 3px solid lightgray;
+    }
+    .mid-header {
+        font-size: 20px;
+        border-bottom: none;
+        width: 100%;
+        text-align: center;
+    }
+    .video-flex {
+        flex-direction:row;
+        gap: 12px;
+    }
+    .fav-episodes {
+        width: 115px;
+        height: 115px;
+    }
+    .episode-title {
+        font-size: 12px;
+        
+    }
+
+} 

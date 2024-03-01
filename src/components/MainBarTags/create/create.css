@@ -1,0 +1,19 @@
+/* Create */
+.create-container {
+    margin: 0 auto;
+    margin-top: 3em;
+    height: 100%;
+    width: 100%;
+}
+
+.construction {
+    margin-bottom: 2em;
+    width: 100%;
+}
+
+#cons-image {
+    margin-top: 1em;
+    width: 30em;
+    height: 40em;
+    border-radius: 8px
+}

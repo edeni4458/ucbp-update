@@ -1,0 +1,201 @@
+/* C-B News */
+
+.mainCB-container {
+    margin-top: 3em;
+    width: 100%;
+}
+
+.news-container {
+    margin: 0 auto;
+    width: 85%;
+    height: 100%
+}
+
+#h2-margin {
+    text-align: right;
+    font-weight: bolder;
+}
+
+.top-header {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: #282c3474;
+    color: whitesmoke;
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid gray;
+    height: 25em;
+}
+
+.top-header:hover {
+    background-color: #282c34a9;
+}
+
+.top-header>p {
+    font-size: 25px;
+    font-weight: bolder;
+    padding: 10px;
+}
+
+
+.top-header>img {
+    border-radius: 8px;
+    width: 45%;
+}
+
+.video-container {
+    margin: 0 auto;
+    background: rgba(56, 106, 198, 0.428);
+    border-radius: 10px;
+    margin-bottom: 1em;
+    margin-top: 3em;
+    height: 28em;
+    width: 85%;
+    border: 2px solid gray;
+}
+
+.video-container:hover {
+    background-color: rgba(100, 148, 237, 0.363);
+}
+
+.news-video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.news-video.container {
+    padding: 0;
+}
+
+.cb-news_videos {
+    width: 30rem;
+    height: 18rem;
+    display: flex;
+    margin-right: 0;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+#delta-reaction {
+    height: 100%;
+    width: 75%;
+    /* margin-top: 5em; */
+    /* margin-left: 5em; */
+    border-radius: 10px;
+    transition: 1.0s;
+    z-index: 3;
+    margin: 0;
+}
+
+#delta-reaction:hover {
+    transform: scale(1.1);
+}
+
+/* Ipad Pro */
+@media screen and (max-width: 1024px) {}
+
+/* Ipad Mini */
+@media screen and (max-width: 768px) {}
+
+/* Phone */
+@media screen and (max-width: 550px) {
+    .video-container {
+        height: 41rem;
+    }
+
+    #h2-margin {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .top-header {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+    }
+
+    .top-header>p {
+        font-size: 18px;
+        margin-top: 1rem;
+    }
+
+    .top-header>img {
+        width: 90%;
+        height: 55%;
+    }
+
+    .news-video {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .news-video>h3 {
+        font-size: larger;
+    }
+
+    .cb-news_videos {
+        height: 15rem;
+        width: 25rem;
+    }
+
+    #delta-reaction {
+        margin-left: .7rem;
+        margin-top: 3rem;
+        width: 60%;
+    }
+    .video-container > h3 {
+        font-size: 20px;
+    }
+}
+
+/* An Even Smaller Phone */
+@media screen and (max-width: 400px) {
+    .video-container {
+        height: 41rem;
+    }
+
+    #h2-margin {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .top-header {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+    }
+
+    .top-header>p {
+        font-size: 18px;
+        margin-top: 1rem;
+    }
+
+    .top-header>img {
+        width: 90%;
+        height: 55%;
+    }
+
+    .news-video {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .news-video>h3 {
+        font-size: larger;
+    }
+
+    .cb-news_videos {
+        height: 15rem;
+        width: 25rem;
+    }
+
+    #delta-reaction {
+        margin-left: .7rem;
+        margin-top: 3rem;
+        margin-right: 0;
+    }
+}

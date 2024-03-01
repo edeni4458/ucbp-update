@@ -1,0 +1,112 @@
+/* ModalConct */
+.modalBackground {
+    background-color: rgba(0, 0, 0, 0.5);
+    position:fixed;
+    height: 110%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: auto;
+    z-index: 99999;
+}
+
+.modalContainer {
+    width: 40%;
+    height: 65%;
+    border-radius: 12px;
+    background-color: #30353e;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 25px;
+}
+
+.titleCloseBtn {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.titleCloseBtn button {
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.modalContainer .footer button {
+    width: 150px;
+    height: 45px;
+    margin: 10px;
+    border: none;
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.modal-labels {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.modal-labels>label,
+input {
+    margin-bottom: 1em;
+}
+
+.font-sizeUp {
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.action-btns {
+    margin-top: 2em;
+}
+
+.signUp-btn {
+    width: 150px;
+    height: 45px;
+    margin: 10px;
+    border: none;
+    background-color: rgba(100, 148, 237, 0.364);
+    border: 2px solid rgba(255, 255, 255, 0.596);
+    color: white;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+    text-transform: lowercase;
+}
+
+.signUp-btn:hover {
+    background-color: rgba(100, 148, 237, 0.551);
+    border: 2px solid white;
+    font-weight: 800;
+}
+
+.cancel-btn {
+    width: 150px;
+    height: 45px;
+    margin: 10px;
+    color: white;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #de1a1a54;
+    border: 2px solid rgba(255, 255, 255, 0.596);
+}
+
+.cancel-btn:hover {
+    background-color: #de1a1a96;
+    border: 2px solid white;
+    font-weight: 800
+}
+
+.x-btn {
+    color: black;
+    font-family: monospace;
+    font-weight: 900;
+}

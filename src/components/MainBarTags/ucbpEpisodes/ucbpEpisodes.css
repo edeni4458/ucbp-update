@@ -1,0 +1,55 @@
+
+/* UCBP Episodes */
+
+.main-episode-container {
+    margin-top: 3em;
+    width: 100%;
+}
+
+.ucbp-container {
+    margin: 0 auto;
+    width: 85%;
+    height: 100%
+}
+.ucbp-container>h2 {
+    font-weight: bolder;
+}
+.embeded-container1 {
+    display: flex;
+    margin-top: 10rem;
+    height: 20rem;
+}
+.embeded-container2 {
+    display: flex;
+    height: 20rem;
+}
+
+/* Ipad Pro */
+@media screen and (max-width: 1024px) {
+
+}
+/* Ipad Mini */
+@media screen and (max-width: 768px) {
+
+}
+
+/* Phone */
+@media screen and (max-width: 550px) {
+    .ucbp-container>h2 {
+        font-size: 20px;
+    }
+
+    .embeded-container1 {
+        flex-direction: column;
+        margin-top: 2rem;
+        height: 20rem;
+    }
+    .embeded-container2 {
+        flex-direction: column;
+        height: 20rem;
+    }
+}
+/* An Even Smaller Phone */
+@media screen and (max-width: 360px) {
+
+}
