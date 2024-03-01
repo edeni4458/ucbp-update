@@ -4,10 +4,8 @@ import "bootstrap/dist/css/bootstrap.min.css"
 import Connect from './components/MainBarTags/connect/Connect';
 import CBnews from './components/MainBarTags/cbNews/CBnews';
 import About from './components/MainBarTags/about/About';
-import Details from './components/MainBarTags/details/Details';
 import Create from './components/MainBarTags/create/Create';
 import View from './components/MainBarTags/view/View';
-import Edit from './components/MainBarTags/edit/Edit';
 import Spotify from './components/MainBarTags/ucbpEpisodes/Spotify';
 import UCBPepisodes from './components/MainBarTags/ucbpEpisodes/UCBPepisodes';
 import ThanksModal from './components/MainBarTags/modals/ThanksModal';
@@ -30,8 +28,6 @@ function App() {
         <Route exact path="/" element={<MainPage/>}/>
         <Route exact path="/view" element={<View />} />
         <Route exact path='/create' element={<Create/>} />
-        <Route exact path='/details/:id' element={<Details/>} />
-        <Route exact path='/edit/:id' element={<Edit/>} />
         <Route exact path='/about' element={<About/>} />
         <Route exact path='/connect' element={<Connect/>} />
         <Route exact path='/news' element={<CBnews/>} />
