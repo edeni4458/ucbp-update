@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/deploy_ucbp/static/css/main.4557aa7b.css",
+    "main.js": "/deploy_ucbp/static/js/main.d077ee6c.js",
+    "static/js/787.d5fa4d18.chunk.js": "/deploy_ucbp/static/js/787.d5fa4d18.chunk.js",
+    "static/media/ucbp-logo.png": "/deploy_ucbp/static/media/ucbp-logo.061217189728c03f118e.png",
+    "static/media/background image 4.jpg": "/deploy_ucbp/static/media/background image 4.33c944b429686aa77aee.jpg",
+    "static/media/Metal Gear Solid Delta.jpg": "/deploy_ucbp/static/media/Metal Gear Solid Delta.6f58dc3998c2cf12247e.jpg",
+    "static/media/spotify.jpg": "/deploy_ucbp/static/media/spotify.eb22c9c7208113d357ac.jpg",
+    "static/media/big-boss.jpg": "/deploy_ucbp/static/media/big-boss.82f1d5a02979fa59f7a8.jpg",
+    "static/media/support-mother-base.jpg": "/deploy_ucbp/static/media/support-mother-base.ceca52e543f451ce4293.jpg",
+    "static/media/apple-vec.png": "/deploy_ucbp/static/media/apple-vec.baff0d81b536d429dd57.png",
+    "static/media/old-snake.jpg": "/deploy_ucbp/static/media/old-snake.793cb2ff9df94a57f94c.jpg",
+    "static/media/under-construction-2.jpg": "/deploy_ucbp/static/media/under-construction-2.892e53b0edeb87d717ef.jpg",
+    "static/media/Phantom-cigar4.jpeg": "/deploy_ucbp/static/media/Phantom-cigar4.dc0f82ede7c8740f159a.jpeg",
+    "static/media/thumbs-up-venom.jpg": "/deploy_ucbp/static/media/thumbs-up-venom.86011c8710085b101241.jpg",
+    "static/media/twitter.png": "/deploy_ucbp/static/media/twitter.2a45aac0eed10c477e94.png",
+    "static/media/fox-unit.jpg": "/deploy_ucbp/static/media/fox-unit.3137eabf8eba3d94d036.jpg",
+    "static/media/podchaser.png": "/deploy_ucbp/static/media/podchaser.a686fe9b0dfd1a6df7de.png",
+    "static/media/youtube.png": "/deploy_ucbp/static/media/youtube.3f7d20ac927b5467ad9f.png",
+    "static/media/slick.svg": "/deploy_ucbp/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/deploy_ucbp/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/deploy_ucbp/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/deploy_ucbp/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/deploy_ucbp/index.html",
+    "main.4557aa7b.css.map": "/deploy_ucbp/static/css/main.4557aa7b.css.map",
+    "main.d077ee6c.js.map": "/deploy_ucbp/static/js/main.d077ee6c.js.map",
+    "787.d5fa4d18.chunk.js.map": "/deploy_ucbp/static/js/787.d5fa4d18.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4557aa7b.css",
+    "static/js/main.d077ee6c.js"
+  ]
+}
